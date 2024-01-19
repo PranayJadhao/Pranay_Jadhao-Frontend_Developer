@@ -1,0 +1,51 @@
+#join{
+   border: 1px solid rgba(255, 179, 0, 0.721);
+   padding: 2%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+   justify-content: space-between;
+    
+}
+
+#joinleft{
+    width: 30%;
+    font-size: 30px;
+}
+
+#joinright{
+    display: flex;
+ 
+   
+    
+}
+
+#joinright img{
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#end{
+    margin: auto;
+ margin-top: 10px;
+  text-align: center;
+}
+#end img{
+    display: block;
+    margin: auto;
+    width: 8%;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+   
+   #joinright img{
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+   }
+  
+  }
